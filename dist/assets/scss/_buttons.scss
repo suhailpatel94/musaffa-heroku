@@ -1,0 +1,114 @@
+.btn.btn-se {
+    color: #fff;
+    background-color: $primary;
+    border-color: $primary;
+    border-radius: 0;
+    padding: .575rem 2rem;
+    font-size: 0.80rem;
+    font-weight: 300;
+    &:hover {
+        color: #ffffff;
+        text-decoration: none;
+        background-color: #091d3d;
+        border-color: #ffffff;
+    }
+}
+
+.btn.btn-se-light {
+    color: $primary;
+    background-color: #F3F4F5;
+    border-color: #DFDFEC;
+    border-radius: 0;
+    padding: .575rem 1.5rem;
+    font-size: 0.875rem;
+    font-weight: 300;
+    &:hover {
+        color: $primary;
+        text-decoration: none;
+        background-color: #DFDFEC;
+        border-color: #DFDFEC;
+    }
+}
+
+.btn.btn-se-outline {
+    color: $primary;
+    background-color: $white;
+    border-color: #ededed;
+    border-radius: 0;
+    padding: .5rem 2rem;
+    font-size: 0.875rem;
+    font-weight: 300;
+    &:hover {
+        color: $white;
+        text-decoration: none;
+        background-color: $primary;
+        border-color: $primary;
+    }
+}
+
+.btn.btn-se-dd-outline {
+    color: $primary;
+    background-color: $white;
+    border: 0;
+    padding: .5rem 2rem;
+    font-size: 0.875rem;
+    font-weight: 300;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.btn.btn-custom-status {
+    color: $primary;
+    background-color: #F5F7FE;
+    border-color: $primary;
+    font-family: "Montserrat-Regular";
+    letter-spacing: inherit;
+    border-radius: 5px;
+    padding: .5rem 1.5rem;
+    font-size: 0.875rem;
+    font-weight: 300;
+    width: 130px;
+    &.btn-avoid {
+        color: #FF6701;
+        border-color: #FF6701;
+    }
+    &.btn-halal {
+        color: #27D17F;
+        border-color: #27D17F;
+    }
+    &.btn-not-halal {
+        color: #C70707;
+        border-color: #C70707;
+    }
+}
+
+.btn.btn-custom-list-status {
+    color: $primary;
+    background-color: #F5F7FE;
+    border-color: $primary;
+    font-family: "Montserrat-Regular";
+    letter-spacing: inherit;
+    border-radius: 5px;
+    padding: .5rem 1.5rem;
+    font-size: 14px;
+    font-weight: bold;
+    width: 130px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    &.btn-avoid {
+        color: #FF6701;
+        border-color: #FF6701;
+    }
+    &.btn-halal {
+        color: #27D17F;
+        border-color: #27D17F;
+    }
+    &.btn-not-halal {
+        color: #C70707;
+        border-color: #C70707;
+    }
+}
